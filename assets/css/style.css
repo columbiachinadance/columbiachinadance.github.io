@@ -294,7 +294,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #ad2b45;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .header-social-links {
     padding: 0 48px 0 0;
     display: none;
