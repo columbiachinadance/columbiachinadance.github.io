@@ -612,6 +612,27 @@ section {
   height: 400px;
   width: auto;
 }
+.button-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.button-link {
+  padding: 15px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ad2b45;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.button-link:hover, .button-link:focus {
+  color: #ad2b45;
+  background-color: #fff;
+}
 
 @media (max-width: 400px) {
   .logoImg {
